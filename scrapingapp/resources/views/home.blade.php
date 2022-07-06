@@ -4,7 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<<<<<<< HEAD
+        <title>Welcome</title>
+=======
         <title>Laravel</title>
+>>>>>>> 16205f472fba316f52bcbca9bbae09209d3a04b9
 
         <!-- Tailwind　使用-->
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
@@ -12,6 +16,40 @@
 
     </head>
     <body class="antialiased">
+<<<<<<< HEAD
+        <div class="bg-white-100">
+            <header class="bg-gray-800">
+                <div class="bg-red-200 font-semibold flex justify-end" align="right">
+                    <a href="https://twitter.com/home" target="_blank"><img src="{{ asset('tw.png')}}"></a>
+                    <a href="https://ja-jp.facebook.com/" target="_blank"><img src="{{ asset('fb.png')}}"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="{{ asset('ins.png')}}"></a>
+                    <a href="" ><img src="{{ asset('li.png')}}"></a>
+                </div>
+
+                <div class="bg-red-200 font-semibold text-white text-2xl font-mono md:flex md:justify-around" align="center">
+                        <div class="block px-8 py-2 my-4 hover:bg-red-300 rounded"><a href="http://127.0.0.1:8000/scraping/home">TOP</a></div>
+                        <div class="block px-8 py-2 my-4 hover:bg-red-300 rounded"><a href="http://127.0.0.1:8000/scraping/add">SCRAPING</a></div>
+                        <div class="block px-8 py-2 my-4 hover:bg-red-300 rounded"><a href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdHPPqCGhJmX4_PkTiKuksdVx5HXhYnCaHV6hV--Ohc95MZnQ/formResponse">CONTACT</a></div>
+                        <div class="block px-8 py-2 my-4 hover:bg-red-300 rounded"><a href="http://127.0.0.1:8000/scraping/contact">MAIL</a></div>
+                </div>
+
+                <div class="border-solid border-2 border-white-200 ..."></div>
+            </header>
+            
+            <main class="p-3">
+                <div align="center"><img src="{{ asset('koujityuu.png')}}"></div>
+                <p>HELLO</p>
+            </main>
+        
+            <footer class="absolute inset-x-0 bottom-0 h-8 bg-gray-800 text-gray-400 text-center">
+                &copy; Riripig
+            </footer>
+        </div>
+
+
+
+
+=======
         <div class="top bg-red-200 font-semibold flex justify-end" align="right">
             <a href="https://twitter.com/home" target="_blank"><img src="{{ asset('tw.png')}}"></a>
             <a href="https://ja-jp.facebook.com/" target="_blank"><img src="{{ asset('fb.png')}}"></a>
@@ -31,10 +69,13 @@
 
 
        <div align="center"><img src="{{ asset('koujityuu.png')}}"></div>
+>>>>>>> 16205f472fba316f52bcbca9bbae09209d3a04b9
 
         <div class="border-solid border-1 border-indigo-500 ..."></div>
 
         
+<<<<<<< HEAD
+=======
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-sky-100 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
@@ -142,5 +183,6 @@
                 </div>
             </div>
         </div>
+>>>>>>> 16205f472fba316f52bcbca9bbae09209d3a04b9
     </body>
 </html>

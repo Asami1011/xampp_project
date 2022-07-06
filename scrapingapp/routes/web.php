@@ -20,4 +20,9 @@ Route::get('/', function () {
 
 Route::get('/scraping/home', 'App\Http\Controllers\ScrapingController@entrance');
 Route::get('/scraping/add', 'App\Http\Controllers\ScrapingController@add');
+<<<<<<< HEAD
 Route::get('/scraping/result', 'App\Http\Controllers\ScrapingController@result');
+Route::get('/scraping/contact', 'App\Http\Controllers\ScrapingController@contact');
+=======
+Route::get('/scraping/result', 'App\Http\Controllers\ScrapingController@result');
+>>>>>>> 16205f472fba316f52bcbca9bbae09209d3a04b9
